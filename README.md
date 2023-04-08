@@ -1,3 +1,5 @@
+![FML_Diagram](https://user-images.githubusercontent.com/100870737/230697747-f6d65f27-baa5-465f-bc0b-c3c958757216.PNG)
+
 # Federated Machine Learning with PyTorch & Flower
 
 Flower is a Python package that simplifies building and experimenting with federated learning systems. It provides a high-level programming interface for defining federated learning algorithms and abstracts away many of the implementation details, allowing developers to focus on the core logic of their algorithms.
