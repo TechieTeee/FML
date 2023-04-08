@@ -9,3 +9,19 @@ Flower is designed to be flexible and modular, allowing developers to mix and ma
 Flower also provides a range of tools for monitoring and debugging federated learning systems, including visualization tools for tracking the progress of training and debugging tools for identifying and diagnosing common errors.
 
 Overall, Flower provides a powerful and user-friendly platform for building and experimenting with federated learning systems, enabling developers to unlock the full potential of this exciting new technology.
+
+#Quick Directions
+Here's a summary of the steps for quick starting training a Convolutional Neural Network on CIFAR10 using Flower and PyTorch:
+
+-Create a virtual environment and install Flower, PyTorch, and torchvision.
+-Define the device allocation in PyTorch.
+-Load the CIFAR10 dataset using PyTorch DataLoader() and normalize the data.
+-Define the loss and optimizer using PyTorch and train the network on the training set.
+-Define the validation of the machine learning network and validate it on the test set.
+-Define the CNN model in PyTorch and load the model and data.
+-Define the Flower interface by creating a class that implements the methods get_parameters, fit, and evaluate.
+-Instantiate a Flower client by passing in the CNN model, data, and Flower interface.
+-Instantiate a Flower server by passing in the CNN model and Flower interface.
+-Start the Flower server and the Flower clients.
+-Train the model using Federated Learning by running multiple rounds of training, where each round consists of clients generating individual weight-updates for the model based on their local datasets, sending the updates to the server, the server aggregating them to produce a better model, and then sending the improved model back to each client.
+-Evaluate the final model on the test set.
